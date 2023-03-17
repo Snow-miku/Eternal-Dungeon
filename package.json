@@ -1,0 +1,33 @@
+{
+  "name": "eternal-dungeon-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "host": "vite --host",
+    "build": "vite build",
+    "preview": "vite build && vite preview",
+    "deploy": "vite build --base=/eternal-dungeon-demo/ && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^4.1.4",
+    "vite-plugin-static-copy": "^0.13.1"
+  },
+  "dependencies": {
+    "firebase": "^9.17.2",
+    "p5.play": "^3.7.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snow-miku/Eternal-Dungeon-DEMO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snow-miku/Eternal-Dungeon-DEMO/issues"
+  },
+  "homepage": "https://github.com/Snow-miku/Eternal-Dungeon-DEMO#readme"
+}
