@@ -5,7 +5,7 @@ export default {
     viteStaticCopy({
       targets: [
         {
-          src: ["index.js", "index.css", "media"],
+          src: ["index.js", "index.css", "media", "fonts"],
           dest: ""
         }
       ]
